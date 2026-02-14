@@ -24,9 +24,9 @@
 Besides, **Pinocchio** provides the analytical derivatives of the main Rigid-Body Algorithms, such as the Recursive Newton-Euler Algorithm or the Articulated-Body Algorithm.
 
 **Pinocchio** was originally designed for robotics applications, but it can be used in other contexts (biomechanics, computer graphics, vision, etc.).
-It is built upon Eigen for linear algebra and FCL for collision detection. **Pinocchio** includes a Python interface for fast code prototyping, [directly accessible](https://github.com/conda-forge/pinocchio-feedstock#installing-pinocchio) through [Conda](https://docs.conda.io/en/latest/).
+It is built upon Eigen for linear algebra and FCL for collision detection. **Pinocchio** includes a Python interface for fast code prototyping, [directly accessible](https://github.com/Unity-Billal-mesloub/pinocchio-feedstock#installing-pinocchio) through [Conda](https://docs.conda.io/en/latest/).
 
-**Pinocchio** is now at the heart of various robotics software as [Crocoddyl](https://github.com/loco-3d/crocoddyl/tree/devel), an open-source and efficient Differential Dynamic Programming solver for robotics, the [Stack-of-Tasks](http://stack-of-tasks.github.io), an open-source and versatile hierarchical controller framework, or the [Humanoid Path Planner](https://humanoid-path-planner.github.io/hpp-doc), open-source software for Motion and Manipulation Planning.
+**Pinocchio** is now at the heart of various robotics software as [Crocoddyl](https://github.com/Unity-Billal-mesloub/crocoddyl/tree/devel), an open-source and efficient Differential Dynamic Programming solver for robotics, the [Stack-of-Tasks](http://stack-of-tasks.github.io), an open-source and versatile hierarchical controller framework, or the [Humanoid Path Planner](https://humanoid-path-planner.github.io/hpp-doc), open-source software for Motion and Manipulation Planning.
 
 If you want to learn more about **Pinocchio** internal behaviors and main features, we invite you to read the related [paper](https://hal-laas.archives-ouvertes.fr/hal-01866228) and the online [documentation](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/devel/doxygen-html/) or [DeepWiki](https://deepwiki.com/stack-of-tasks/pinocchio).
 
@@ -81,8 +81,8 @@ or via pip (currently only available on Linux):
    - low-complexity constrained articulated body algorithms,
    - [sparse constrained dynamics](https://laas.hal.science/hal-01790971v2/file/18-rss-analytical-derivatives-carpentier.pdf) and its analytical derivatives,
    - full support of [multiple-precision floating-point (MPFR)](https://www.mpfr.org/) in Python and C++,
-   - support of modern and open-source Automatic Differentiation frameworks like [CppAD](https://github.com/coin-or/CppAD) or [CasADi](https://web.casadi.org/),
-   - automatic code generation support is available via [CppADCodeGen](https://github.com/joaoleal/CppADCodeGen).
+   - support of modern and open-source Automatic Differentiation frameworks like [CppAD](https://github.com/Unity-Billal-mesloub/CppAD) or [CasADi](https://web.casadi.org/),
+   - automatic code generation support is available via [CppADCodeGen](https://github.com/Unity-Billal-mesloub/CppADCodeGen).
 
 **Pinocchio** can support description formats:
 
@@ -105,18 +105,18 @@ or via pip (currently only available on Linux):
 
 ## Documentation
 
-The online **Pinocchio** documentation of the last release is available [here](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/devel/doxygen-html/). A cheat sheet pdf with the main functions and algorithms can be found [here](https://github.com/stack-of-tasks/pinocchio/blob/devel/doc/pinocchio_cheat_sheet.pdf).
+The online **Pinocchio** documentation of the last release is available [here](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/devel/doxygen-html/). A cheat sheet pdf with the main functions and algorithms can be found [here](https://github.com/Unity-Billal-mesloub/pinocchio/blob/devel/doc/pinocchio_cheat_sheet.pdf).
 
 ## Examples
 
-In the [examples](https://github.com/stack-of-tasks/pinocchio/tree/devel/examples) directory, we provide some basic examples of using Pinocchio in Python.
+In the [examples](https://github.com/Unity-Billal-mesloub/pinocchio/tree/devel/examples) directory, we provide some basic examples of using Pinocchio in Python.
 Additional examples introducing **Pinocchio** are also available in the [documentation](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/devel/doxygen-html/md_doc_d-practical-exercises_intro.html).
 
 ## Tutorials
 
 **Pinocchio** comes with a large bunch of tutorials aiming at introducing the basic tools for robot control.
 Tutorial and training documents are listed [here](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/devel/doxygen-html/index.html#OverviewConclu).
-You can also consider the interactive Jupyter notebook [set of tutorials](https://github.com/ymontmarin/_tps_robotique) developed by [Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard) and [Yann de Mont-Marin](https://github.com/ymontmarin).
+You can also consider the interactive Jupyter notebook [set of tutorials](https://github.com/Unity-Billal-mesloub/_tps_robotique) developed by [Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard) and [Yann de Mont-Marin](https://github.com/Unity-Billal-mesloub).
 
 ## Pinocchio continuous integrations
 
@@ -125,11 +125,11 @@ You can also consider the interactive Jupyter notebook [set of tutorials](https:
   <table class="center">
    <!-- <tr> <td> Continuous Integration </td></tr>-->
   <tr><td> CI on ROS </td>
-  <td><a href="https://github.com/stack-of-tasks/pinocchio/actions/workflows/ros_ci.yml"><img alt="ROS" src="https://github.com/stack-of-tasks/pinocchio/actions/workflows/ros_ci.yml/badge.svg?branch=devel" /></a></td>
+  <td><a href="https://github.com/Unity-Billal-mesloub/pinocchio/actions/workflows/ros_ci.yml"><img alt="ROS" src="https://github.com/Unity-Billal-mesloub/pinocchio/actions/workflows/ros_ci.yml/badge.svg?branch=devel" /></a></td>
     </tr><tr><td> CI on Linux via APT </td>
-  <td><a href="https://github.com/stack-of-tasks/pinocchio/actions/workflows/linux.yml"><img alt="linux" src="https://github.com/stack-of-tasks/pinocchio/actions/workflows/linux.yml/badge.svg?branch=devel" /></a></td>
+  <td><a href="https://github.com/Unity-Billal-mesloub/pinocchio/actions/workflows/linux.yml"><img alt="linux" src="https://github.com/Unity-Billal-mesloub/pinocchio/actions/workflows/linux.yml/badge.svg?branch=devel" /></a></td>
     </tr><tr><td> CI on macOS and Windows via Pixi </td>
-  <td><a href="https://github.com/stack-of-tasks/pinocchio/actions/workflows/macos-linux-windows-pixi.yml"><img alt="mac" src="https://github.com/stack-of-tasks/pinocchio/actions/workflows/macos-linux-windows-pixi.yml/badge.svg?branch=devel" /></a></td>
+  <td><a href="https://github.com/Unity-Billal-mesloub/pinocchio/actions/workflows/macos-linux-windows-pixi.yml"><img alt="mac" src="https://github.com/Unity-Billal-mesloub/pinocchio/actions/workflows/macos-linux-windows-pixi.yml/badge.svg?branch=devel" /></a></td>
     </tr><tr><td> CI on Linux via Robotpkg </td>
     <td><img src="https://gitlab.laas.fr/stack-of-tasks/pinocchio/badges/devel/pipeline.svg" alt="Pipeline Status"></td>
    </tr>
@@ -145,16 +145,16 @@ You can also consider the interactive Jupyter notebook [set of tutorials](https:
 </p>
 
 For other benchmarks, and mainly the capacity of Pinocchio to exploit, at best, your CPU capacities using advanced code generation techniques, we refer to the technical [paper](https://hal-laas.archives-ouvertes.fr/hal-01866228).
-In addition, the [introspection](https://github.com/rbd-benchmarks/rbd-benchmarks) may also help you to understand and compare the performances of the modern rigid body dynamics libraries.
+In addition, the [introspection](https://github.com/Unity-Billal-mesloub/rbd-benchmarks) may also help you to understand and compare the performances of the modern rigid body dynamics libraries.
 
 ## Ongoing developments
 
-If you want to follow the current developments, you can refer to the [devel branch](https://github.com/stack-of-tasks/pinocchio/tree/devel).
-The [devel branch](https://github.com/stack-of-tasks/pinocchio/tree/devel/) only contains the latest release. Any new Pull Request should be submitted on the [devel branch](https://github.com/stack-of-tasks/pinocchio/tree/devel/).
+If you want to follow the current developments, you can refer to the [devel branch](https://github.com/Unity-Billal-mesloub/pinocchio/tree/devel).
+The [devel branch](https://github.com/Unity-Billal-mesloub/pinocchio/tree/devel/) only contains the latest release. Any new Pull Request should be submitted on the [devel branch](https://github.com/Unity-Billal-mesloub/pinocchio/tree/devel/).
 
 ## Installation
 
-**Pinocchio** can be easily installed on various Linux (Ubuntu, Fedora, etc.) and Unix distributions (Mac OS X, BSD, etc.). Please refer to the [installation procedure](http://stack-of-tasks.github.io/pinocchio/download.html).
+**Pinocchio** can be easily installed on various Linux (Ubuntu, Fedora, etc.) and Unix distributions (Mac OS X, BSD, etc.). Please refer to the [installation procedure](http://Unity-Billal-mesloub.github.io/pinocchio/download.html).
 
 ### Conda
 
@@ -189,7 +189,7 @@ You can then use Pinocchio in your ROS packages by:
 * Including Pinocchio via CMake (`find_package(pinocchio REQUIRED)`) and linking against Pinocchio (`target_link_libraries(my_library pinocchio::pinocchio)`)
 
 We include support and hooks to discover the package for ROS build systems.
-A ROS 2 example can be found in [this repository](https://github.com/sea-bass/pinocchio_ros_cpp_example).
+A ROS 2 example can be found in [this repository](https://github.com/Unity-Billal-mesloub/pinocchio_ros_cpp_example).
 
 Please note that we always advise including the `pinocchio/fwd.hpp` header as the first include to avoid compilation errors from differing Boost-variant sizes.
 
@@ -204,13 +204,13 @@ Please note that we always advise including the `pinocchio/fwd.hpp` header as th
 
 **Pinocchio** provides support for many open-source and free visualizers:
 
--   [Gepetto Viewer](https://github.com/Gepetto/gepetto-viewer): a C++ viewer based on [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph) with Python bindings and Blender export. See [here](https://github.com/stack-of-tasks/pinocchio-gepetto-viewer) for a C++ example on mixing **Pinocchio** and **Gepetto Viewer**.
--   [Meshcat](https://github.com/rdeits/meshcat): supporting visualization in Python and which can be embedded inside any browser.
--   [Panda3d](https://github.com/ikalevatykh/panda3d_viewer): supporting visualization in Python and which can be embedded inside any browser.
--   [RViz](https://github.com/ros-visualization/rviz): supporting visualization in Python and which can interact with other ROS packages.
--   [Viser](https://github.com/nerfstudio-project/viser): supporting browser-based visualization in Python, with support for widgets such as sliders and interactive markers.
+-   [Gepetto Viewer](https://github.com/Unity-Billal-mesloub/gepetto-viewer): a C++ viewer based on [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph) with Python bindings and Blender export. See [here](https://github.com/Unity-Billal-mesloub/pinocchio-gepetto-viewer) for a C++ example on mixing **Pinocchio** and **Gepetto Viewer**.
+-   [Meshcat](https://github.com/Unity-Billal-mesloub/meshcat): supporting visualization in Python and which can be embedded inside any browser.
+-   [Panda3d](https://github.com/Unity-Billal-mesloub/panda3d_viewer): supporting visualization in Python and which can be embedded inside any browser.
+-   [RViz](https://github.com/Unity-Billal-mesloub/rviz): supporting visualization in Python and which can interact with other ROS packages.
+-   [Viser](https://github.com/Unity-Billal-mesloub/viser): supporting browser-based visualization in Python, with support for widgets such as sliders and interactive markers.
 
-Many external viewers can also be integrated. For more information, see the example [here](https://github.com/stack-of-tasks/pinocchio/blob/devel/bindings/python/pinocchio/visualize/base_visualizer.py).
+Many external viewers can also be integrated. For more information, see the example [here](https://github.com/Unity-Billal-mesloub/pinocchio/blob/devel/bindings/python/pinocchio/visualize/base_visualizer.py).
 
 ## Citing Pinocchio
 
@@ -250,67 +250,33 @@ If you use these algorithms, please consider citing them in your research articl
 
 ## Questions and Issues
 
-Do you have a question or an issue? You may either directly open a [new question](https://github.com/stack-of-tasks/pinocchio/discussions/new?category=q-a) or a [new issue](https://github.com/stack-of-tasks/pinocchio/issues) or, directly contact us via the mailing list <pinocchio@inria.fr>.
+Do you have a question or an issue? You may either directly open a [new question](https://github.com/Unity-Billal-mesloub/pinocchio/discussions/new?category=q-a) or a [new issue](https://github.com/Unity-Billal-mesloub/pinocchio/issues) or, directly contact us via the mailing list <pinocchio@inria.fr>.
 
 ## Core-dev team
 
-The currently active core developers of **Pinocchio** are:
+The currently active core developers of **Pinocchio** is:
 
--   [Justin Carpentier](https://jcarpent.github.io) (Inria): main developer and manager of the project
--   [Guilhem Saurel](https://www.laas.fr/fr/annuaire/gsaurel) (LAAS-CNRS): CI/CD, packaging
--   [Etienne Arlaud](https://github.com/EtienneAr) (Inria): core developer
--   [Wilson Jallet](https://github.com/ManifoldFR) (LAAS-CNRS/Inria): extension of Python bindings, C++ visualization API
--   [Fabian Schramm](https://github.com/fabinsch) (Inria): core developper
--   [Stéphane Caron](https://scaron.info) (Inria): core developper
--   [Joris Vaillant](https://github.com/jorisv) (Inria): core developer and project manager
--   [Megane Millan](https://github.com/MegMll) (Inria): core developer
--   [Ajay Sathya](https://www.ajaysathya.com/) (Inria): core developer
-
-## Credits
-
-In addition to the core dev team, the following people have also been involved in the development of **Pinocchio** and are warmly thanked for their contributions:
-
--   [Nicolas Mansard](http://projects.laas.fr/gepetto/index.php/Members/NicolasMansard) (LAAS-CNRS): initial project instructor
--   [Joseph Mirabel](http://jmirabel.github.io/) (Eureka Robotics): Lie groups and hpp-fcl support
--   [Antonio El Khoury](https://www.linkedin.com/in/antonioelkhoury) (Wandercraft): bug fixes
--   [Gabriele Buondono](http://projects.laas.fr/gepetto/index.php/Members/GabrieleBuondonno) (LAAS-CNRS): features extension, bug fixes, and Python bindings
--   [Florian Valenza](https://fr.linkedin.com/in/florian-valenza-1b274082) (Astek): core developments and hpp-fcl support
--   [Wolfgang Merkt](http://www.wolfgangmerkt.com/) (University of Oxford): ROS integration and support
--   [Rohan Budhiraja](https://scholar.google.com/citations?user=NW9Io9AAAAAJ) (Inria/LAAS-CNRS): features extension
--   [Loïc Estève](https://github.com/lesteve) (Inria): Conda integration and support
--   [Igor Kalevatykh](https://github.com/ikalevatykh) (Inria): Panda3d viewer support
--   [Matthieu Vigne](https://github.com/matthieuvigne) (Wandercraft): MeshCat viewer support
--   [Robin Strudel](https://www.di.ens.fr/robin.strudel/) (Inria): features extension
--   [François Keith](https://scholar.google.fr/citations?user=cxSxXiQAAAAJ&hl=en) (CEA): Windows support
--   [Sarah El Kazdadi](https://github.com/sarah-ek) (Inria): multi-precision arithmetic support
--   [Nicolas Torres Alberto](https://scholar.google.com/citations?user=gYNLhEIAAAAJ&hl=en) (Inria): features extension
--   [Shubham Singh](https://github.com/shubhamsingh91) (UT Austin): second-order inverse dynamics derivatives
--   [Sebastian Castro](https://roboticseabass.com) (RAI Institute): Viser visualizer and MeshCat visualizer feature extension
--   [Lev Kozlov](https://github.com/lvjonok): Kinetic and potential energy regressors
--   [Simeon Nedelchev](https://github.com/simeon-ned): Pseudo inertia and Log-Cholesky parametrization
--   [Alexy Legrand](https://www.linkedin.com/in/alexy-legrand-125889232/): Viser color bug fixes
--   [Pierre Puchaud](https://github.com/ipuch): Ellipsoid Joint
--   [Lucas Joseph](https://github.com/LucasJoseph): Ellipsoid Joint
-
-If you have participated in the development of **Pinocchio**, please add your name and contribution to this list.
-
+-   [Unity-Billal-mesloub](https://Unity-Billal-mesloub.github.io) : main developer and manager of the project
+-   [Guilhem Saurel](https://www.laas.fr/fr/annuaire/gsaurel): CI/CD, packaging
+-   [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub): core developer
+  
 ## Open-source projects relying on Pinocchio
 
--   [Crocoddyl](https://github.com/loco-3d/crocoddyl): A software to realize model predictive control for complex robotics platforms.
--   [TSID](https://github.com/stack-of-tasks/tsid/): A software that implements a Task Space Inverse Dynamics QP.
+-   [Crocoddyl](https://github.com/Unity-Billal-mesloub/crocoddyl): A software to realize model predictive control for complex robotics platforms.
+-   [TSID](https://github.com/Unity-Billal-mesloub/tsid/): A software that implements a Task Space Inverse Dynamics QP.
 -   [HPP](https://humanoid-path-planner.github.io/hpp-doc/): A SDK that implements motion planners for humanoids and other robots.
--   [Jiminy](https://github.com/duburcqa/jiminy): A simulator based on Pinocchio.
--   [ocs2](https://github.com/leggedrobotics/ocs2): A toolbox for Optimal Control for Switched Systems (OCS2)
--   [TriFingerSimulation](https://github.com/open-dynamic-robot-initiative/trifinger_simulation): TriFinger Robot Simulation (a Robot to perform RL on manipulation).
--   [Casadi_Kin_Dyn](https://github.com/ADVRHumanoids/casadi_kin_dyn): IIT Package for generation of symbolic (SX) expressions of robot kinematics and dynamics.
--   [PyRoboPlan](https://github.com/sea-bass/pyroboplan): An educational Python library for manipulator motion planning using the Pinocchio Python bindings.
--   [RoboPlan](https://github.com/open-planning/roboplan): A modern robot motion planning library based on Pinocchio, built in C++ with Python bindings (successor to PyRoboPlan).
--   [ProxSuite-NLP](https://github.com/Simple-Robotics/proxsuite-nlp): A primal-dual augmented Lagrangian solver for nonlinear programming on manifolds.
--   [Aligator](https://github.com/Simple-Robotics/aligator): A versatile and efficient framework for constrained trajectory optimization.
--   [Simple](https://github.com/Simple-Robotics/Simple): The Simple Simulator: Simulation Made Simple.
--   [LoIK](https://github.com/Simple-Robotics/LoIK): Low-Complexity Inverse Kinematics.
--   [PlaCo](https://github.com/Rhoban/placo): Rhoban's planning and control library, featuring task-space inverse kinematics and dynamics high-level API for whole-body control tasks.
--   [CRISP controllers](https://github.com/utiasDSL/crisp_controllers): Collection of real-time, C++ controllers for compliant torque-based control for manipulators compatible with `ros2_control`.
+-   [Jiminy](https://github.com/Unity-Billal-mesloub/jiminy): A simulator based on Pinocchio.
+-   [ocs2](https://github.com/Unity-Billal-mesloub/ocs2): A toolbox for Optimal Control for Switched Systems (OCS2)
+-   [TriFingerSimulation](https://github.com/Unity-Billal-mesloub/trifinger_simulation): TriFinger Robot Simulation (a Robot to perform RL on manipulation).
+-   [Casadi_Kin_Dyn](https://github.com/Unity-Billal-mesloub/casadi_kin_dyn): IIT Package for generation of symbolic (SX) expressions of robot kinematics and dynamics.
+-   [PyRoboPlan](https://github.com/Unity-Billal-mesloub/pyroboplan): An educational Python library for manipulator motion planning using the Pinocchio Python bindings.
+-   [RoboPlan](https://github.com/Unity-Billal-mesloub/roboplan): A modern robot motion planning library based on Pinocchio, built in C++ with Python bindings (successor to PyRoboPlan).
+-   [ProxSuite-NLP](https://github.com/Unity-Billal-mesloub/proxsuite-nlp): A primal-dual augmented Lagrangian solver for nonlinear programming on manifolds.
+-   [Aligator](https://github.com/Unity-Billal-mesloub/aligator): A versatile and efficient framework for constrained trajectory optimization.
+-   [Simple](https://github.com/Unity-Billal-mesloub/Simple): The Simple Simulator: Simulation Made Simple.
+-   [LoIK](https://github.com/Unity-Billal-mesloub/LoIK): Low-Complexity Inverse Kinematics.
+-   [PlaCo](https://github.com/Unity-Billal-mesloub/placo): Rhoban's planning and control library, featuring task-space inverse kinematics and dynamics high-level API for whole-body control tasks.
+-   [CRISP controllers](https://github.com/Unity-Billal-mesloub/crisp_controllers): Collection of real-time, C++ controllers for compliant torque-based control for manipulators compatible with `ros2_control`.
 
 ## Acknowledgments
 
